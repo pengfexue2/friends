@@ -42,11 +42,11 @@ common_list = []
 
 #由于微信好友中可能存在除性别外信息全为空的好友，无法据此验证其身份，故先定义好无效身份方便后续排查
 #无性别信息的空数据身份
-empty = {"City":"","PYQuanPin":"","Province":"","PYInitial":"","Sex":0,'Signature':"",'Signature':"",'NickName':""}
+empty = {"City":"","PYQuanPin":"","Province":"","PYInitial":"","Sex":0,'Signature':"",'NickName':""}
 #性别为男的空数据
-emptyM = {"City":"","PYQuanPin":"","Province":"","PYInitial":"","Sex":1,'Signature':"",'Signature':"",'NickName':""}
+emptyM = {"City":"","PYQuanPin":"","Province":"","PYInitial":"","Sex":1,'Signature':"",'NickName':""}
 #性别为女的空数据
-emptyF = {"City":"","PYQuanPin":"","Province":"","PYInitial":"","Sex":2,'Signature':"",'Signature':"",'NickName':""}
+emptyF = {"City":"","PYQuanPin":"","Province":"","PYInitial":"","Sex":2,'Signature':"",'NickName':""}
 
 for i in contactlist:
     if i in contactlist2:
